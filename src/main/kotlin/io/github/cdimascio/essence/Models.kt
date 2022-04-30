@@ -1,5 +1,7 @@
 package io.github.cdimascio.essence
 
+import io.github.cdimascio.essence.scorers.ScoredElement
+
 data class EssenceResult(
     val text: String,
     val language: String,
@@ -15,7 +17,8 @@ data class EssenceResult(
     val links: List<Link>,
     val canonicalLink: String,
     val keywords: String,
-    val tags: List<String>
+    val tags: List<String>,
+    val topNode:ScoredElement?
 
 )
 

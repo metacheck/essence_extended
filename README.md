@@ -44,7 +44,7 @@ See [Extracted data elements](#extracted-data-elements) for additional extracted
 <dependency>
   <groupId>io.github.cdimascio</groupId>
   <artifactId>essence</artifactId>
-  <version>0.13.0</version>
+  <version>0.14.0</version>
   <type>pom</type>
 </dependency>
 ```
@@ -52,7 +52,7 @@ See [Extracted data elements](#extracted-data-elements) for additional extracted
 **Gradle**
 
 ```groovy
-compile 'io.github.cdimascio:essence:0.13.0'
+compile 'io.github.cdimascio:essence:0.14.0'
 ```
 
 ## Try the Essence web demo
